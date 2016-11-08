@@ -14,17 +14,8 @@ public class Ex05 {
 
         System.out.println("Escribe uan frase y te sacare todas las 'a' y 'e'");
     String frase = scanner.nextLine();
-        for(int x=0;x<frase.length();x++) {
-        if (frase.charAt(x)=='a'){
-            contadora++;
-        }if (frase.charAt(x)=='e'){
 
-            contadore++;
-        }
-
-    }
-        System.out.println("Hay "+contadora+" 'a' ");
-        System.out.println("Hay "+contadore+" 'e' ");
+        System.out.println(frase.replace('a', 'e'));
 }
 }
 
