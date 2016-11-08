@@ -11,7 +11,7 @@ public class Ex07 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Dame una frase");
-        String Frase = scanner.nextLine();
+            String Frase = scanner.nextLine();
         System.out.println(Frase.toUpperCase());
     }
 }
